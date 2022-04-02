@@ -13,3 +13,6 @@ Once all your team members have been added to this repository, you will be able 
 
 ### Reminder: PLEASE MAKE SURE TO SUBMIT YOUR GITHUB LINK TO YOUR DEVPOST SUBMISSION. 
 
+
+
+![image](https://user-images.githubusercontent.com/34868944/161392257-1af6d698-b62c-429c-832f-afbfe36d1722.png)
