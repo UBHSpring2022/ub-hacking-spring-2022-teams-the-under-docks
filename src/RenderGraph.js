@@ -14,8 +14,7 @@ const UpdatableEdge = (props) => {
     const [nodes, setNodes, onNodesChange] = useNodesState(props.initialNodes);
     const [edges, setEdges, onEdgesChange] = useEdgesState(props.initialEdges);
 
-    const postDelete = async (edge_id) => {
-        const idxId = Number(edge_id.split("-")[1])
+    const postDelete = async (idxId) => {
         const edge = props.initialEdges[idxId]
         await fetch('deleteEdge', {
             method: 'POST',
@@ -31,7 +30,9 @@ const UpdatableEdge = (props) => {
 
     const onEdgeClick = async (evt, id) => {
         evt.stopPropagation();
-        await postDelete(id)
+        const idxId = Number(id.split("-")[1])
+        console.log(props.initialEdges[idxId]);
+        await postDelete(idxId)
     };
 
     function CustomEdge({
