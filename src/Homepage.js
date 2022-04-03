@@ -10,12 +10,12 @@ class Homepage extends Component {
     }
 
     renderNumDeployments = () => {
-        if(this.props.numDeployments === -1){
+        if (this.props.numDeployments === -1) {
             return <Dropdown.Item>Loading...</Dropdown.Item>
         }
         const deployments = [];
-        for(let i = 0; i < this.props.numDeployments; i++){
-            deployments.push(<Dropdown.Item onClick={() => {this.props.postCommand(i)}} key={`dep_${i}`}>Deployment {i+1}</Dropdown.Item>)
+        for (let i = 0; i < this.props.numDeployments; i++) {
+            deployments.push(<Dropdown.Item onClick={() => { this.props.postCommand(i) }} key={`dep_${i}`}>Deployment {i + 1}</Dropdown.Item>)
         }
         return deployments;
     }
@@ -26,12 +26,13 @@ class Homepage extends Component {
                 <Row className="d-flex justify-content-center min-vh-50">
                     <Col xs={12} lg={9} className="mt-5">
                         <Card className="m-4 h-100 mt-5 bg-opacity-75 text-center gradient_card" bg="dark" text="light">
-                            <Card.Header><h1>The Under Dockers</h1></Card.Header>
+                            <Card.Header><h1>Skiff</h1></Card.Header>
                             <Card.Body>
                                 <h3>Simplicity is the Ultimate Sophistication</h3>
                                 <p className="m-3">
-                                    Our mission is to make docker commands and networking incredibly simple.
+                                    Skiff is graphical drag-and-drop tool for configuring/connecting interfaces on Docker containers.
                                     <br />
+                                    Our mission is to make docker commands and networking incredibly simple.
                                     So even a 3 year old do in <label className="text-warning">seconds</label>. what used to take <label className="text-warning">hours</label>...
                                 </p>
 

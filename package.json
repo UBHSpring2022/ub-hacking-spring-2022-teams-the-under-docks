@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "proxy": "https://serverhackathon.prakshal.repl.co/",
-  "homepage": "https://prakshal-jain.github.io/ub-hacking-spring-2022-teams-the-under-docks",
+  "homepage": "https://prakshal-jain.github.io/ub-hacking-spring-2022-teams-the-under-docks/",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
