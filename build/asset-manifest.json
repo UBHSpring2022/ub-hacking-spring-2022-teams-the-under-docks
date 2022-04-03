@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ub-hacking-spring-2022-teams-the-under-docks/static/css/main.da90157d.css",
+    "main.js": "/ub-hacking-spring-2022-teams-the-under-docks/static/js/main.c85f70ac.js",
+    "static/js/787.cda612ba.chunk.js": "/ub-hacking-spring-2022-teams-the-under-docks/static/js/787.cda612ba.chunk.js",
+    "static/media/Hero.jpeg": "/ub-hacking-spring-2022-teams-the-under-docks/static/media/Hero.c7bb66d2f1dc3e008471.jpeg",
+    "index.html": "/ub-hacking-spring-2022-teams-the-under-docks/index.html",
+    "main.da90157d.css.map": "/ub-hacking-spring-2022-teams-the-under-docks/static/css/main.da90157d.css.map",
+    "main.c85f70ac.js.map": "/ub-hacking-spring-2022-teams-the-under-docks/static/js/main.c85f70ac.js.map",
+    "787.cda612ba.chunk.js.map": "/ub-hacking-spring-2022-teams-the-under-docks/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da90157d.css",
+    "static/js/main.c85f70ac.js"
+  ]
+}
