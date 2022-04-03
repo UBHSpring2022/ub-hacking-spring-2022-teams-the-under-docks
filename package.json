@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "proxy": "https://serverhackathon.prakshal.repl.co/",
   "homepage": "https://UBHSpring2022.github.io/ub-hacking-spring-2022-teams-the-under-docks/",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
